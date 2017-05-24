@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GenericUnion
 
 How to start the GenericUnion application
@@ -11,3 +12,6 @@ Health Check
 ---
 
 To see your applications health enter url `http://localhost:8081/healthcheck`
+=======
+# genericUnion
+>>>>>>> 3195b0c8c52b56e5bb16cc41728b435c0c011184
