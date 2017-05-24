@@ -1,0 +1,14 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 22000
+
+  adminConnectors:
+    - type: http
+      port: 22001
+
+
+logging:
+  level: INFO
+  loggers:
+    com.cleo.union: DEBUG
