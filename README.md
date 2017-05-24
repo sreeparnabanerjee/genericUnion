@@ -16,7 +16,9 @@ To see your applications health enter url `http://localhost:22001/healthcheck`
 GET localhost:22000/getGenericUnion/inputVariables/{sets}
 ..... This will give you the inputs required for {sets} .
 Example : GET localhost:22000/getGenericUnion/inputVariables/3
-Response : {
+Response : 
+```json
+{
   "input": {
     "A": 0,
     "B": 0,
@@ -27,12 +29,15 @@ Response : {
     "A intersection C": 0
   }
 } 
+```
 
 You can put the output as the request Body in the POST call below, replacing each value appropriately.
 
 POST localhost:22000/getGenericUnion/{sets}
 Example : POST localhost:22000/getGenericUnion/inputVariables/3
-Request Body : {
+Request Body : 
+```json
+{
   "input": {
     "A": 4,
     "B": 5,
@@ -43,7 +48,7 @@ Request Body : {
     "A intersection C": 3
   }
 }
-
+```
 Response: 12
 
 
